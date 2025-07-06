@@ -1,0 +1,41 @@
+body {
+  font-family: 'Georgia', serif;
+  background: #f0e7ff;
+  color: #333;
+  text-align: center;
+  padding: 2rem;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #5a189a;
+}
+
+.backstory-box {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #5a189a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #7b2cbf;
+}
